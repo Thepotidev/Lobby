@@ -6,40 +6,41 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Encuentra el mejor lugar para vacacionar en familia o con amigos.">
-    <title>Lobby</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Propiedades Disponibles</title>
 
 </head>
 
 <body>
 
-    <header>
+    <header class="main" id="main">
         <h2>Lobby</h2>
 
-        <nav>
-            <a href="">Comprar</a>
-            <a href="">Alquilar</a>
+        <nav class="nav" id="nav">
+            <a href="search-results.html" target="_blank">Ver propiedades disponibles</a>
+            <!-- <a href="" target="_blank">Alquilar</a> -->
         </nav>
 
-        <div>
-            <a href="">Iniciar sesión</a>
+        <div class="login" id="login">
+            <a href="login.html" target="_self">Iniciar sesión</a>
         </div>
 
     </header>
 
     <main>
-        <section>
-            <img src="./background.png" alt=""/>
+        
+        <section class="home-search">
 
             <h1>Encuentra tu espacio ideal para rentar</h1>
 
             <p>
-                Explora una amplia variedad de propiedades disponibles para alquiler, desde acogedores apartamentos hasta
+                Explora una amplia variedad de propiedades disponibles para alquilar. <!-- desde acogedores apartamentos hasta
                 espaciosas casas familiares. Ya sea que busques un lugar para unas vacaciones cortas o una estancia
-                prolongada, tenemos opciones que se adaptan a tus necesidades y presupuesto.
-            </p>
+                prolongada, tenemos opciones que se adaptan a tus necesidades y presupuesto. -->
+            </p><br>
 
             <form role="search">
-                <svg xmlns="http://www.w3.org/2000/svg" 
+                <svg class="search" xmlns="http://www.w3.org/2000/svg" 
                 width="24" height="24" viewBox="0 0 24 24" 
                 fill="none" 
                     stroke="currentColor" 
@@ -58,7 +59,7 @@
                 <input required type="text" placeholder="Buscar alquiler por estado">
 
                 <button type="submit">Buscar
-                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    <svg class="submit" xmlns="http://www.w3.org/2000/svg" 
                     width="24" height="24" viewBox="0 0 24 24" 
                     fill="none" 
                         stroke="currentColor" 
@@ -77,10 +78,111 @@
             </form>
 
         </section>
+
+        <section class="home-listings">
+
+            <article>
+                <div>
+                    <h3>Casa en Caracas</h3>
+                    <small>Caracas, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 3 dormitorios, 
+                        2 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Valencia</h3>
+                    <small>Valencia, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 4 dormitorios, 
+                        2 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Barquisimeto</h3>
+                    <small>Lara, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 2 dormitorios, 
+                        1 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Lecheria</h3>
+                    <small>Anzoategui, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 8 dormitorios, 
+                        6 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Maracaibo</h3>
+                    <small>Zulia, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 5 dormitorios, 
+                        2 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Guacara</h3>
+                    <small>Carabobo, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 2 dormitorios, 
+                        1 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en San Diego</h3>
+                    <small>Valencia, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 6 dormitorios, 
+                        2 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+            <article>
+                <div>
+                    <h3>Casa en Naguanagua</h3>
+                    <small>Naguanagua, Venezuela</small>
+                    <p>Esta casa ideal para familias 
+                        cuenta con 8 dormitorios, 
+                        3 baños, y una cocina 
+                        completamente equipada.</p>
+                </div>
+                <button class="details">Ver detalles</button>
+            </article>
+
+        </section>
     </main>
 
-    <footer style="padding-bottom: 100000px;">
-
+    <footer>
+        <small>&copy; 2026 Lobby. Todos los derechos
+        reservados.</small>
     </footer>
     
 </body>
